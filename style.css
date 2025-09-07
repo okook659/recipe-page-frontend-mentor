@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Young-serif;
+    src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url("assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(330, 100%, 98%);
+    font-family: "Outfit";
+    list-style-position: inside;
+}
+
+#card{
+    width: 35%;
+    padding: 2em;
+    background-color: white;
+    position: relative;
+    border-radius: 1em;
+}
+
+#img{
+    object-fit: contain;
+    width: inherit;
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+    background-image: url('assets/images/image-omelette.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+
+h1, .title {
+    font-family: 'Young-serif';
+    margin: 0.5em 0;
+}
+
+#preparation{
+    margin: 1.5em 0;
+    padding: 1em;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 1em;
+}
+
+
+
+#preparation h3{
+    margin-bottom: 0.3em;
+}
+
+#preparation h3, h2{
+    color: hsl(332, 51%, 32%);
+}
+
+#list{
+    background-color: hsl(330, 100%, 98%);
+    padding-left: 2em;
+}
+
+#list 
+
+p{
+    font-size: 0.95em;
+}
+li::marker{
+    padding-right: 2.5em;
+}
+
+li span{
+    margin-left: 1em;
+}
+
+hr{
+    margin: 2.5em 0 2em 0;
+    color: rgba(0,0,0, 0.4);
+    font-weight: 100;
+}
+
+ol, ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;  
+}
+
+table{
+    color: hsl(332, 51%, 32%);
+    font-weight: 200;
+}
